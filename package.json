@@ -39,7 +39,8 @@
     "rebuild-0": "npm run clean && npm run build",
     "rebuild": "echo 'Skipping'",
     "prestart": "npm run rebuild",
-    "start": "node -r source-map-support/register .",
+    "start:dev": "node -r source-map-support/register .",
+    "start": "node dist/index.js",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache"
   },
   "repository": {
