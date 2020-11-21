@@ -1,1 +1,1 @@
-worker: cd backend && yarn start
+worker: yarn start
