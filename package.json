@@ -36,7 +36,8 @@
     "migrate": "node ./dist/migrate",
     "preopenapi-spec": "npm run build",
     "openapi-spec": "node ./dist/openapi-spec",
-    "rebuild": "npm run clean && npm run build",
+    "rebuild-0": "npm run clean && npm run build",
+    "rebuild": "echo 'Skipping'",
     "prestart": "npm run rebuild",
     "start": "node -r source-map-support/register .",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache"
